@@ -340,5 +340,5 @@ def hangman_with_hints(secret_word):
 
 if __name__ == "__main__":
     secret_word = choose_word(wordlist)
-    hangman("else")
+    hangman(secret_word)
     #hangman_with_hints(secret_word)
